@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_dw_elt
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dw_mutuelle_elt
+      POSTGRES_USER: dw_user
+      POSTGRES_PASSWORD: dw_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data_elt:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./data:/data
+
+volumes:
+  postgres_data_elt:
