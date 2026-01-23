@@ -1,0 +1,25 @@
+[0m16:16:20.256784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FD90B8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215802CAC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215800FB470>]}
+
+
+============================== 16:16:20.263365 | c07a7df0-9bd6-42b3-b6b5-4ee020db86d6 ==============================
+[0m16:16:20.263365 [info ] [MainThread]: Running with dbt=1.10.16
+[0m16:16:20.263365 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\chole\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init silver_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:16:20.282564 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\chole\.dbt
+[0m16:16:20.285565 [debug] [MainThread]: Starter project path: C:\Users\chole\Documents\Ynov\M2 - 2025\ETL\ELT\dbt_env\Lib\site-packages\dbt\include\starter_project
+[0m16:16:20.310958 [info ] [MainThread]: 
+Your new dbt project "silver_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:16:20.311469 [info ] [MainThread]: Setting up your profile.
